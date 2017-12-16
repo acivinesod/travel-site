@@ -4,16 +4,21 @@
 
 	&__image {
 		display: block;
+		min-height: 46vh;
 	}
 
 	&__text-content {
+	padding-top: 100px;
 	position: absolute;
 	top:50%;
+	transform: translateY(-50%);
 	left: 0;
 	width: 100%;
 	text-align: center;
-	transform: translateY(-50%);
+	@mixin atMedium {
+		padding-top: 60px;
 	}
+	}			
 
 	&__title {
 	font-weight: 300;
