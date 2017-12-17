@@ -11347,7 +11347,7 @@ var StickyHeader = function () {
 							(0, _jquery2.default)(matchingHeaderLink).addClass('is-current-link');
 						}
 					},
-					offset: "18%"
+					offset: "28%"
 				});
 				new Waypoint({
 					element: currentPageSection,
